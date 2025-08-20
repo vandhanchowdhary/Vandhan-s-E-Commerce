@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="border-t py-12">
+    <footer className="border-t p-12">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-4 lg:px-0">
         <div>
           <h3 className="text-lg text-gray-800 mb-4">Newsletter</h3>
@@ -20,6 +20,7 @@ const Footer = () => {
           <form className="flex">
             <input
               type="email"
+              id="newsletter_input"
               placeholder="Enter your email"
               className="p-3 w-full text-sm border border-r-0 border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-gray-500 transition-all"
             />
@@ -124,8 +125,8 @@ const Footer = () => {
       </div>
 
       {/* footer bottom */}
-      <div className="container mask-x-to-neutral-50 mt-12 px-4 lg:px-0 border-t border-gray-200 pt-6">
-        <p>&copy; 2025 Vandhan's E-Commerce. All rights reserved.</p>
+      <div className="container mx-auto mt-12 px-4 lg:px-0 border-t border-gray-200 pt-6">
+        <p className="text-gray-500 text-sm tracking-tighter text-center">&copy; 2025, Vandhan's E-Commerce. All rights reserved.</p>
       </div>
     </footer>
   );

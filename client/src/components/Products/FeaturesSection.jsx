@@ -8,7 +8,7 @@ const FeaturesSection = () => {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
         {/* feature 1 */}
         <div className="flex flex-col items-center bg-blue-50 py-4 rounded-3xl">
-          <div className="p-2 rounded-full mb-4">
+          <div className="p-2 rounded-full mb-2">
             <GiShoppingBag className="text-4xl" />
           </div>
           <h4 className="tracking-tighter mb-2">FREE INTERNATIONAL SHIPPING</h4>
@@ -19,7 +19,7 @@ const FeaturesSection = () => {
 
         {/* feature 2 */}
         <div className="flex flex-col items-center bg-blue-50 py-4 rounded-3xl">
-          <div className="p-2 rounded-full mb-4">
+          <div className="p-2 rounded-full mb-2">
             <TbTruckReturn className="text-4xl" />
           </div>
           <h4 className="tracking-tighter mb-2">45 DAYS RETURN</h4>
@@ -30,7 +30,7 @@ const FeaturesSection = () => {
 
         {/* feature 3 */}
         <div className="flex flex-col items-center bg-blue-50 py-4 rounded-3xl">
-          <div className="p-2 rounded-full mb-4">
+          <div className="p-2 rounded-full mb-2">
             <GrSecure className="text-4xl" />
           </div>
           <h4 className="tracking-tighter mb-2">SECURE CHECKOUT</h4>

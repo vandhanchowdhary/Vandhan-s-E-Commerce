@@ -24,7 +24,7 @@ const Navbar = () => {
         {/* left- logo */}
         <div className="flex flex-col  md:items-center md:gap-2 ">
           <Link to="/" className="text-2xl font-medium">
-            Vandhan's
+            Kavuri's
           </Link>
           <span className="text-xs text-gray-400">E-Commerce</span>
         </div>

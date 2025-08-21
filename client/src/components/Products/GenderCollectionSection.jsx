@@ -13,13 +13,13 @@ const GenderCollectionSection = () => {
             alt="Women's Collection"
             className="w-full h-[700px] object-cover"
           />
-          <div className="absolute bottom-8 left-8 bg-white opacity-80 p-4 rounded">
+          <div className="absolute bottom-8 left-8 bg-white opacity-90 p-4 rounded">
             <h2 className="text-2xl font-bold text-gray-900 mb-3">
               Women's Collection
             </h2>
             <Link
               to="/collection/all?gender=Women"
-              className="text-gray-900 underline"
+              className="bg-black text-white p-2 rounded hover:text-black hover:bg-gray-300"
             >
               Shop Now
             </Link>
@@ -33,13 +33,13 @@ const GenderCollectionSection = () => {
             alt="Men's Collection"
             className="w-full h-[700px] object-cover"
           />
-          <div className="absolute bottom-8 left-8 bg-white opacity-80 p-4 rounded">
+          <div className="absolute bottom-8 left-8 bg-white opacity-90 p-4 rounded">
             <h2 className="text-2xl font-bold text-gray-900 mb-3">
-              Women's Collection
+              Men's Collection
             </h2>
             <Link
               to="/collection/all?gender=Men"
-              className="text-gray-900 underline"
+              className="bg-black text-white p-2 rounded hover:text-black hover:bg-gray-300"
             >
               Shop Now
             </Link>

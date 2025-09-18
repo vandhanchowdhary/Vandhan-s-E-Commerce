@@ -22,16 +22,18 @@ const Navbar = () => {
     <>
       <nav className="container mx-auto flex items-center justify-between py-4 px-6">
         {/* left- logo */}
-        <div className="flex flex-col  md:items-center md:gap-2 ">
+        <div className="flex flex-row items-center gap-2 ">
           <Link to="/" className="text-2xl font-medium">
             Kavuri's
           </Link>
-          <span className="text-xs text-gray-400">E-Commerce</span>
+          <span className="hidden md:block md:text-xs md:text-gray-400">
+            E-Commerce
+          </span>
         </div>
         {/* nav links */}
         <div className="hidden md:flex space-x-4">
           <Link
-            to="#"
+            to="/collections/all"
             className="text-gray-700 hover:text-black text-sm font-medium uppercase"
           >
             men
